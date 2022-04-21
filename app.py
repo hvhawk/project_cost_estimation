@@ -41,7 +41,7 @@ def main():
     dev_class = st.selectbox('Developemnt Class',('Conversion(<5%)', 'Minor Enhancement(5%-25% new)', 'Major Enhancement(25%-75% new)','New Development'))
     
     func_size = st.text_input("Function Size")
-    act_dur = st.text_input("Actual Duration")
+    act_dur = st.text_input("Estimated Duration")
     
     release = st.selectbox('Release Based Working',('Yes','No'))
     once_only_proj = st.selectbox('Once Only Project',('Yes','No'))
