@@ -13,7 +13,7 @@ import streamlit as st
 
 
 #loading the saved model
-mdl=pickle.load(open(r"RFR_trained.pkl",'rb'))
+mdl=pickle.load(open("RFR_trained.pkl",'rb'))
 
 # creating a function for prediction
 
